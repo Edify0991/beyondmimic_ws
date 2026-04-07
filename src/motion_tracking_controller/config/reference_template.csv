@@ -1,0 +1,15 @@
+# Local reference motion template for motion_tracking_controller
+#
+# Format per line:
+#   joint_pos ; joint_vel ; body_pos ; body_quat
+#
+# Rules:
+# - 1 frame per line
+# - Fields separated by ';'
+# - Values in each field separated by ','
+# - body_pos is flattened xyz per body: [x1,y1,z1,x2,y2,z2,...]
+# - body_quat is flattened wxyz per body: [w1,x1,y1,z1,w2,x2,y2,z2,...]
+# - Empty lines and lines starting with '#' are ignored
+#
+# Replace the example values below with your real data.
+0.0,0.0 ; 0.0,0.0 ; 0.0,0.0,1.0,0.0,0.0,1.0 ; 1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
