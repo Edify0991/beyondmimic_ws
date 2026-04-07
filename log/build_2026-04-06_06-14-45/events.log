@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.000539] (-) JobUnselected: {'identifier': 'unitree_bringup'}
+[0.000673] (motion_tracking_controller) JobQueued: {'identifier': 'motion_tracking_controller', 'dependencies': OrderedDict()}
+[0.000701] (motion_tracking_controller) JobStarted: {'identifier': 'motion_tracking_controller'}
+[0.011128] (motion_tracking_controller) JobProgress: {'identifier': 'motion_tracking_controller', 'progress': 'cmake'}
+[0.011477] (motion_tracking_controller) Command: {'cmd': ['/usr/bin/cmake', '/beyondmimic_ws/src/motion_tracking_controller', '-DCMAKE_BUILD_TYPE=RelwithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/beyondmimic_ws/install/motion_tracking_controller'], 'cwd': '/beyondmimic_ws/build/motion_tracking_controller', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'user-Super-Server', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/beyondmimic_ws/build/motion_tracking_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.076099] (motion_tracking_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099661] (-) TimerEvent: {}
+[0.138759] (motion_tracking_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.159451] (motion_tracking_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199828] (-) TimerEvent: {}
+[0.261063] (motion_tracking_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.293768] (motion_tracking_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.294573] (motion_tracking_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.295688] (motion_tracking_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.299907] (-) TimerEvent: {}
+[0.310826] (motion_tracking_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400058] (-) TimerEvent: {}
+[0.426855] (motion_tracking_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.460701] (motion_tracking_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.461321] (motion_tracking_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.462957] (motion_tracking_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.470686] (motion_tracking_controller) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[0.500184] (-) TimerEvent: {}
+[0.600632] (-) TimerEvent: {}
+[0.620519] (motion_tracking_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700846] (-) TimerEvent: {}
+[0.701297] (motion_tracking_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.801003] (-) TimerEvent: {}
+[0.901456] (-) TimerEvent: {}
+[0.908277] (motion_tracking_controller) StdoutLine: {'line': b'-- pinocchio_default FOUND. pinocchio_default at /opt/ros/jazzy/lib/x86_64-linux-gnu/libpinocchio_default.so\n'}
+[0.908744] (motion_tracking_controller) StdoutLine: {'line': b'-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/jazzy/lib/x86_64-linux-gnu/libpinocchio_parsers.so\n'}
+[0.913688] (motion_tracking_controller) StdoutLine: {'line': b'-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so\n'}
+[1.001604] (-) TimerEvent: {}
+[1.009848] (motion_tracking_controller) StdoutLine: {'line': b'-- eigenpy FOUND. eigenpy at /opt/ros/jazzy/lib/x86_64-linux-gnu/libeigenpy.so\n'}
+[1.034897] (motion_tracking_controller) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[1.101755] (-) TimerEvent: {}
+[1.202278] (-) TimerEvent: {}
+[1.266255] (motion_tracking_controller) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include\n'}
+[1.302385] (-) TimerEvent: {}
+[1.380907] (motion_tracking_controller) StdoutLine: {'line': b'--   NUMPY_VERSION=1.26.4\n'}
+[1.402542] (-) TimerEvent: {}
+[1.502965] (-) TimerEvent: {}
+[1.603397] (-) TimerEvent: {}
+[1.703836] (-) TimerEvent: {}
+[1.751426] (motion_tracking_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development.Module NumPy \n'}
+[1.753642] (motion_tracking_controller) StdoutLine: {'line': b'-- PythonLibraryDirs: \n'}
+[1.753922] (motion_tracking_controller) StdoutLine: {'line': b'-- PythonLibVersionString: 3.12.3\n'}
+[1.771540] (motion_tracking_controller) StdoutLine: {'line': b'-- Python site lib: lib/python3.12/site-packages\n'}
+[1.771969] (motion_tracking_controller) StdoutLine: {'line': b'-- Python include dirs: /usr/include/python3.12\n'}
+[1.803981] (-) TimerEvent: {}
+[1.812566] (motion_tracking_controller) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[1.904127] (-) TimerEvent: {}
+[1.925522] (motion_tracking_controller) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include\n'}
+[2.004265] (-) TimerEvent: {}
+[2.036934] (motion_tracking_controller) StdoutLine: {'line': b'--   NUMPY_VERSION=1.26.4\n'}
+[2.037374] (motion_tracking_controller) StdoutLine: {'line': b'-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include\n'}
+[2.061027] (motion_tracking_controller) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.83.0") found components: python312 \n'}
+[2.104381] (-) TimerEvent: {}
+[2.204827] (-) TimerEvent: {}
+[2.305331] (-) TimerEvent: {}
+[2.405762] (-) TimerEvent: {}
+[2.456009] (motion_tracking_controller) StdoutLine: {'line': b'-- Default C++ standard: 201703\n'}
+[2.456246] (motion_tracking_controller) StdoutLine: {'line': b'-- Minimal C++ standard upgraded to 11\n'}
+[2.456380] (motion_tracking_controller) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[2.456521] (motion_tracking_controller) StdoutLine: {'line': b'-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17\n'}
+[2.479755] (motion_tracking_controller) StdoutLine: {'line': b'-- hpp-fcl FOUND. hpp-fcl at /opt/ros/jazzy/lib/x86_64-linux-gnu/libhpp-fcl.so\n'}
+[2.505829] (-) TimerEvent: {}
+[2.517432] (motion_tracking_controller) StdoutLine: {'line': b'-- Minimal C++ standard upgraded to 14\n'}
+[2.517549] (motion_tracking_controller) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 14, currently defined: 17\n'}
+[2.519229] (motion_tracking_controller) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 14, currently defined: 17\n'}
+[2.585543] (motion_tracking_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.601885] (motion_tracking_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.605954] (-) TimerEvent: {}
+[2.621629] (motion_tracking_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.643294] (motion_tracking_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.706096] (-) TimerEvent: {}
+[2.806512] (-) TimerEvent: {}
+[2.906918] (-) TimerEvent: {}
+[2.947800] (motion_tracking_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.950888] (motion_tracking_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.007063] (-) TimerEvent: {}
+[3.044797] (motion_tracking_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.059670] (motion_tracking_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.083041] (motion_tracking_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.107206] (-) TimerEvent: {}
+[3.207649] (-) TimerEvent: {}
+[3.308090] (-) TimerEvent: {}
+[3.408382] (-) TimerEvent: {}
+[3.508793] (-) TimerEvent: {}
+[3.544799] (motion_tracking_controller) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/motion_tracking_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[3.552919] (motion_tracking_controller) StdoutLine: {'line': b'-- Configuring done (3.5s)\n'}
+[3.598598] (motion_tracking_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.603887] (motion_tracking_controller) StdoutLine: {'line': b'-- Build files have been written to: /beyondmimic_ws/build/motion_tracking_controller\n'}
+[3.608878] (-) TimerEvent: {}
+[3.616007] (motion_tracking_controller) CommandEnded: {'returncode': 0}
+[3.617061] (motion_tracking_controller) JobProgress: {'identifier': 'motion_tracking_controller', 'progress': 'build'}
+[3.618594] (motion_tracking_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/beyondmimic_ws/build/motion_tracking_controller', '--', '-j152', '-l152'], 'cwd': '/beyondmimic_ws/build/motion_tracking_controller', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'user-Super-Server', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/beyondmimic_ws/build/motion_tracking_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.688837] (motion_tracking_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionCommand.cpp.o\x1b[0m\n'}
+[3.689350] (motion_tracking_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionOnnxPolicy.cpp.o\x1b[0m\n'}
+[3.689727] (motion_tracking_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionTrackingController.cpp.o\x1b[0m\n'}
+[3.709022] (-) TimerEvent: {}
+[3.809463] (-) TimerEvent: {}
+[3.909963] (-) TimerEvent: {}
+[4.010436] (-) TimerEvent: {}
+[4.110922] (-) TimerEvent: {}
+[4.211419] (-) TimerEvent: {}
+[4.311913] (-) TimerEvent: {}
+[4.412351] (-) TimerEvent: {}
+[4.512748] (-) TimerEvent: {}
+[4.613244] (-) TimerEvent: {}
+[4.713734] (-) TimerEvent: {}
+[4.814240] (-) TimerEvent: {}
+[4.914742] (-) TimerEvent: {}
+[4.927350] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionOnnxPolicy.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual legged::vector_t legged::MotionOnnxPolicy::\x1b[01;32m\x1b[Kforward\x1b[m\x1b[K(const legged::vector_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.927839] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionOnnxPolicy.cpp:79:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[KEigen::Index\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.928119] (motion_tracking_controller) StderrLine: {'line': b'   79 |   for (size_t i = 0; \x1b[01;35m\x1b[Ki < body_pos_w.rows()\x1b[m\x1b[K; ++i) {\n'}
+[4.928394] (motion_tracking_controller) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.014909] (-) TimerEvent: {}
+[5.115413] (-) TimerEvent: {}
+[5.215914] (-) TimerEvent: {}
+[5.316422] (-) TimerEvent: {}
+[5.416885] (-) TimerEvent: {}
+[5.517237] (-) TimerEvent: {}
+[5.617756] (-) TimerEvent: {}
+[5.718296] (-) TimerEvent: {}
+[5.818809] (-) TimerEvent: {}
+[5.919319] (-) TimerEvent: {}
+[6.019833] (-) TimerEvent: {}
+[6.120356] (-) TimerEvent: {}
+[6.220864] (-) TimerEvent: {}
+[6.321375] (-) TimerEvent: {}
+[6.421878] (-) TimerEvent: {}
+[6.522405] (-) TimerEvent: {}
+[6.622909] (-) TimerEvent: {}
+[6.723411] (-) TimerEvent: {}
+[6.823926] (-) TimerEvent: {}
+[6.924471] (-) TimerEvent: {}
+[7.024982] (-) TimerEvent: {}
+[7.125489] (-) TimerEvent: {}
+[7.226041] (-) TimerEvent: {}
+[7.326572] (-) TimerEvent: {}
+[7.427079] (-) TimerEvent: {}
+[7.527632] (-) TimerEvent: {}
+[7.628130] (-) TimerEvent: {}
+[7.728674] (-) TimerEvent: {}
+[7.829195] (-) TimerEvent: {}
+[7.929720] (-) TimerEvent: {}
+[8.030266] (-) TimerEvent: {}
+[8.130790] (-) TimerEvent: {}
+[8.231314] (-) TimerEvent: {}
+[8.331839] (-) TimerEvent: {}
+[8.432358] (-) TimerEvent: {}
+[8.532882] (-) TimerEvent: {}
+[8.633424] (-) TimerEvent: {}
+[8.734044] (-) TimerEvent: {}
+[8.834545] (-) TimerEvent: {}
+[8.935058] (-) TimerEvent: {}
+[9.035656] (-) TimerEvent: {}
+[9.136176] (-) TimerEvent: {}
+[9.236683] (-) TimerEvent: {}
+[9.337208] (-) TimerEvent: {}
+[9.437711] (-) TimerEvent: {}
+[9.462403] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void legged::MotionCommandTerm::\x1b[01;32m\x1b[Kreset\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.464046] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:16:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[9.464340] (motion_tracking_controller) StderrLine: {'line': b'   16 |   if (\x1b[01;35m\x1b[KanchorRobotIndex_ >= pinModel.nframes\x1b[m\x1b[K) {\n'}
+[9.464585] (motion_tracking_controller) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.464941] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:21:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[9.465230] (motion_tracking_controller) StderrLine: {'line': b'   21 |     if (\x1b[01;35m\x1b[KbodyIndices_.back() >= pinModel.nframes\x1b[m\x1b[K) {\n'}
+[9.465460] (motion_tracking_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.465690] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Klegged::vector3_t legged::MotionCommandTerm::\x1b[01;32m\x1b[KgetAnchorPositionLocal\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.465926] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:53:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossibly dangling reference to a temporary [\x1b[01;35m\x1b[K-Wdangling-reference\x1b[m\x1b[K]\n'}
+[9.466188] (motion_tracking_controller) StderrLine: {'line': b'   53 |   const auto& \x1b[01;35m\x1b[KanchorPos\x1b[m\x1b[K = motionPolicy_->getBodyPositions()[anchorMotionIndex_];\n'}
+[9.466420] (motion_tracking_controller) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.466645] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:53:79:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe temporary was destroyed at the end of the full expression \xe2\x80\x98\x1b[01m\x1b[Klegged::MotionOnnxPolicy::getBodyPositions() const().std::vector<Eigen::Matrix<double, 3, 1> >::operator[](((size_t)((const legged::MotionCommandTerm*)this)->legged::MotionCommandTerm::anchorMotionIndex_))\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.467020] (motion_tracking_controller) StderrLine: {'line': b'   53 |   const auto& anchorPos = motionPolicy_->getBodyPositions()[anchorMotionIndex_\x1b[01;36m\x1b[K]\x1b[m\x1b[K;\n'}
+[9.467265] (motion_tracking_controller) StderrLine: {'line': b'      |                                                                               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.467495] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Klegged::vector_t legged::MotionCommandTerm::\x1b[01;32m\x1b[KgetRobotBodyOrientationLocal\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.467726] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpossibly dangling reference to a temporary [\x1b[01;35m\x1b[K-Wdangling-reference\x1b[m\x1b[K]\n'}
+[9.467954] (motion_tracking_controller) StderrLine: {'line': b'   82 |     const auto& \x1b[01;35m\x1b[Krot\x1b[m\x1b[K = anchorPoseReal.actInv(data.oMf[bodyIndices_[i]]).rotation();\n'}
+[9.468181] (motion_tracking_controller) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.468408] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:80:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe temporary was destroyed at the end of the full expression \xe2\x80\x98\x1b[01m\x1b[K((pinocchio::SE3Base<pinocchio::SE3Tpl<double, 0> >*)(& pinocchio::SE3Base<Derived>::actInv(const D&) const [with D = pinocchio::SE3Tpl<double, 0>; Derived = pinocchio::SE3Tpl<double, 0>; typename pinocchio::SE3GroupAction<D>::ReturnType = pinocchio::SE3Tpl<double, 0>]((* & data.pinocchio::DataTpl<double, 0>::oMf.std::vector<pinocchio::SE3Tpl<double, 0>, Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> > >::operator[](((__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type)((const legged::MotionCommandTerm*)this)->legged::MotionCommandTerm::bodyIndices_.std::vector<long unsigned int>::operator[](i)))))))->pinocchio::SE3Base<pinocchio::SE3Tpl<double, 0> >::rotation()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.468706] (motion_tracking_controller) StderrLine: {'line': b'   82 |     const auto& rot = \x1b[01;36m\x1b[KanchorPoseReal.actInv(data.oMf[bodyIndices_[i]]).rotation()\x1b[m\x1b[K;\n'}
+[9.468937] (motion_tracking_controller) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.537989] (-) TimerEvent: {}
+[9.638478] (-) TimerEvent: {}
+[9.738985] (-) TimerEvent: {}
+[9.839517] (-) TimerEvent: {}
+[9.940058] (-) TimerEvent: {}
+[10.040557] (-) TimerEvent: {}
+[10.141046] (-) TimerEvent: {}
+[10.241531] (-) TimerEvent: {}
+[10.342036] (-) TimerEvent: {}
+[10.442533] (-) TimerEvent: {}
+[10.543023] (-) TimerEvent: {}
+[10.643496] (-) TimerEvent: {}
+[10.743989] (-) TimerEvent: {}
+[10.844482] (-) TimerEvent: {}
+[10.944983] (-) TimerEvent: {}
+[11.045490] (-) TimerEvent: {}
+[11.146096] (-) TimerEvent: {}
+[11.246600] (-) TimerEvent: {}
+[11.347118] (-) TimerEvent: {}
+[11.447577] (-) TimerEvent: {}
+[11.547977] (-) TimerEvent: {}
+[11.648493] (-) TimerEvent: {}
+[11.749017] (-) TimerEvent: {}
+[11.849537] (-) TimerEvent: {}
+[11.950078] (-) TimerEvent: {}
+[12.050575] (-) TimerEvent: {}
+[12.151126] (-) TimerEvent: {}
+[12.251653] (-) TimerEvent: {}
+[12.352169] (-) TimerEvent: {}
+[12.452683] (-) TimerEvent: {}
+[12.553210] (-) TimerEvent: {}
+[12.653713] (-) TimerEvent: {}
+[12.754271] (-) TimerEvent: {}
+[12.854783] (-) TimerEvent: {}
+[12.955298] (-) TimerEvent: {}
+[13.055812] (-) TimerEvent: {}
+[13.156455] (-) TimerEvent: {}
+[13.256977] (-) TimerEvent: {}
+[13.357499] (-) TimerEvent: {}
+[13.458009] (-) TimerEvent: {}
+[13.558525] (-) TimerEvent: {}
+[13.659115] (-) TimerEvent: {}
+[13.743389] (motion_tracking_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:321\x1b[m\x1b[K,\n'}
+[13.743879] (motion_tracking_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/legged_model/common.h:7\x1b[m\x1b[K,\n'}
+[13.744138] (motion_tracking_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/legged_rl_controllers/Policy.h:7\x1b[m\x1b[K,\n'}
+[13.744378] (motion_tracking_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/legged_rl_controllers/OnnxPolicy.h:16\x1b[m\x1b[K,\n'}
+[13.744609] (motion_tracking_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h:7\x1b[m\x1b[K,\n'}
+[13.744841] (motion_tracking_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionCommand.h:7\x1b[m\x1b[K,\n'}
+[13.745075] (motion_tracking_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:5\x1b[m\x1b[K:\n'}
+[13.745305] (motion_tracking_controller) StderrLine: {'line': b'In constructor \xe2\x80\x98\x1b[01m\x1b[KEigen::CommaInitializer<MatrixType>::\x1b[01;32m\x1b[KCommaInitializer\x1b[m\x1b[K(XprType&, const Scalar&) \x1b[35m\x1b[K[with XprType = Eigen::Matrix<double, -1, 1>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99,\n'}
+[13.745544] (motion_tracking_controller) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[KEigen::CommaInitializer<Derived> Eigen::DenseBase<Derived>::\x1b[01;32m\x1b[Koperator<<\x1b[m\x1b[K(const Scalar&) \x1b[35m\x1b[K[with Derived = Eigen::Matrix<double, -1, 1>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:150:67\x1b[m\x1b[K,\n'}
+[13.745790] (motion_tracking_controller) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Klegged::vector_t legged::MotionCommandTerm::\x1b[01;32m\x1b[KgetRobotBodyOrientationLocal\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:84:10\x1b[m\x1b[K:\n'}
+[13.746095] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:38:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kdangling pointer to an unnamed temporary may be used [\x1b[01;35m\x1b[K-Wdangling-pointer=\x1b[m\x1b[K]\n'}
+[13.746335] (motion_tracking_controller) StderrLine: {'line': b'   38 |     \x1b[01;35m\x1b[Km_xpr.coeffRef(0,0) = s\x1b[m\x1b[K;\n'}
+[13.746566] (motion_tracking_controller) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[13.746797] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Klegged::vector_t legged::MotionCommandTerm::\x1b[01;32m\x1b[KgetRobotBodyOrientationLocal\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.747047] (motion_tracking_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kunnamed temporary defined here\n'}
+[13.747277] (motion_tracking_controller) StderrLine: {'line': b'   82 |     const auto& rot = \x1b[01;36m\x1b[KanchorPoseReal.actInv(data.oMf[bodyIndices_[i]])\x1b[m\x1b[K.rotation();\n'}
+[13.747506] (motion_tracking_controller) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.759397] (-) TimerEvent: {}
+[13.859980] (-) TimerEvent: {}
+[13.960502] (-) TimerEvent: {}
+[14.061000] (-) TimerEvent: {}
+[14.161493] (-) TimerEvent: {}
+[14.262053] (-) TimerEvent: {}
+[14.362551] (-) TimerEvent: {}
+[14.463048] (-) TimerEvent: {}
+[14.563561] (-) TimerEvent: {}
+[14.664060] (-) TimerEvent: {}
+[14.764581] (-) TimerEvent: {}
+[14.865088] (-) TimerEvent: {}
+[14.965573] (-) TimerEvent: {}
+[15.066082] (-) TimerEvent: {}
+[15.166591] (-) TimerEvent: {}
+[15.267088] (-) TimerEvent: {}
+[15.367584] (-) TimerEvent: {}
+[15.468089] (-) TimerEvent: {}
+[15.568590] (-) TimerEvent: {}
+[15.669099] (-) TimerEvent: {}
+[15.769616] (-) TimerEvent: {}
+[15.870146] (-) TimerEvent: {}
+[15.970657] (-) TimerEvent: {}
+[16.071149] (-) TimerEvent: {}
+[16.171615] (-) TimerEvent: {}
+[16.272094] (-) TimerEvent: {}
+[16.330607] (motion_tracking_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmotion_tracking_controller.so\x1b[0m\n'}
+[16.372231] (-) TimerEvent: {}
+[16.472680] (-) TimerEvent: {}
+[16.573168] (-) TimerEvent: {}
+[16.673658] (-) TimerEvent: {}
+[16.774202] (-) TimerEvent: {}
+[16.782258] (motion_tracking_controller) StdoutLine: {'line': b'[100%] Built target motion_tracking_controller\n'}
+[16.797419] (motion_tracking_controller) CommandEnded: {'returncode': 0}
+[16.798483] (motion_tracking_controller) JobProgress: {'identifier': 'motion_tracking_controller', 'progress': 'install'}
+[16.806787] (motion_tracking_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/beyondmimic_ws/build/motion_tracking_controller'], 'cwd': '/beyondmimic_ws/build/motion_tracking_controller', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'HOSTNAME': 'user-Super-Server', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/beyondmimic_ws/build/motion_tracking_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.814230] (motion_tracking_controller) StdoutLine: {'line': b'-- Install configuration: "RelwithDebInfo"\n'}
+[16.814795] (motion_tracking_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.815075] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller//motion_tracking_controller.xml\n'}
+[16.826060] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/MotionCommand.h\n'}
+[16.836330] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/MotionObservation.h\n'}
+[16.843928] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h\n'}
+[16.851666] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/MotionTrackingController.h\n'}
+[16.861192] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/common.h\n'}
+[16.870098] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/library_path.sh\n'}
+[16.874288] (-) TimerEvent: {}
+[16.877819] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/library_path.dsv\n'}
+[16.889334] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/lib/libmotion_tracking_controller.so\n'}
+[16.897148] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/config/g1/controllers.yaml\n'}
+[16.904778] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/config/reference_template.csv\n'}
+[16.912615] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/launch/mujoco.launch.py\n'}
+[16.920129] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/launch/real.launch.py\n'}
+[16.927868] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/launch/wandb.launch.py\n'}
+[16.937749] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/ament_index/resource_index/package_run_dependencies/motion_tracking_controller\n'}
+[16.946577] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/ament_index/resource_index/parent_prefix_path/motion_tracking_controller\n'}
+[16.954109] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/ament_prefix_path.sh\n'}
+[16.961887] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/ament_prefix_path.dsv\n'}
+[16.969471] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/path.sh\n'}
+[16.974378] (-) TimerEvent: {}
+[16.977261] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/path.dsv\n'}
+[16.984792] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/local_setup.bash\n'}
+[16.992529] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/local_setup.sh\n'}
+[17.000105] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/local_setup.zsh\n'}
+[17.009752] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/local_setup.dsv\n'}
+[17.017617] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/package.dsv\n'}
+[17.025663] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/ament_index/resource_index/packages/motion_tracking_controller\n'}
+[17.037119] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/motion_tracking_controller\n'}
+[17.045556] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.053424] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.060996] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.068610] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/motion_tracking_controllerConfig.cmake\n'}
+[17.074472] (-) TimerEvent: {}
+[17.077896] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/motion_tracking_controllerConfig-version.cmake\n'}
+[17.085625] (motion_tracking_controller) StdoutLine: {'line': b'-- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/package.xml\n'}
+[17.095530] (motion_tracking_controller) CommandEnded: {'returncode': 0}
+[17.125848] (motion_tracking_controller) JobEnded: {'identifier': 'motion_tracking_controller', 'rc': 0}
+[17.127764] (-) EventReactorShutdown: {}

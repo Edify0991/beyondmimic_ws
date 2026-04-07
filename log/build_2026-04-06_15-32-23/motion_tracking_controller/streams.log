@@ -1,0 +1,124 @@
+[0.013s] Invoking command in '/beyondmimic_ws/build/motion_tracking_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/motion_tracking_controller -- -j152 -l152
+[0.046s] -- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.270s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/jazzy/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.271s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/jazzy/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.273s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.286s] -- eigenpy FOUND. eigenpy at /opt/ros/jazzy/lib/x86_64-linux-gnu/libeigenpy.so
+[0.314s] -- Checking for NumPy
+[0.553s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.669s] --   NUMPY_VERSION=1.26.4
+[0.941s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development.Module NumPy 
+[0.943s] -- PythonLibraryDirs: 
+[0.944s] -- PythonLibVersionString: 3.12.3
+[0.961s] -- Python site lib: lib/python3.12/site-packages
+[0.961s] -- Python include dirs: /usr/include/python3.12
+[1.006s] -- Checking for NumPy
+[1.127s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[1.247s] --   NUMPY_VERSION=1.26.4
+[1.247s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[1.674s] -- Default C++ standard: 201703
+[1.674s] -- C++ standard sufficient: Minimal required 14, currently defined: 17
+[1.675s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[1.680s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/jazzy/lib/x86_64-linux-gnu/libhpp-fcl.so
+[1.709s] -- C++ standard sufficient: Minimal required 14, currently defined: 17
+[1.712s] -- C++ standard sufficient: Minimal required 14, currently defined: 17
+[1.770s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.781s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.077s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.078s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.153s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.440s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/motion_tracking_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.448s] -- Configuring done (2.4s)
+[2.511s] -- Generating done (0.0s)
+[2.518s] -- Build files have been written to: /beyondmimic_ws/build/motion_tracking_controller
+[2.642s] [ 25%] [32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionCommand.cpp.o[0m
+[2.643s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionOnnxPolicy.cpp.o[0m
+[2.645s] [ 75%] [32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionTrackingController.cpp.o[0m
+[4.148s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionOnnxPolicy.cpp:[m[K In member function ‘[01m[Kvirtual legged::vector_t legged::MotionOnnxPolicy::[01;32m[Kforward[m[K(const legged::vector_t&)[m[K’:
+[4.149s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionOnnxPolicy.cpp:79:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[KEigen::Index[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[4.149s]    79 |   for (size_t i = 0; [01;35m[Ki < body_pos_w.rows()[m[K; ++i) {
+[4.150s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[10.110s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:[m[K In member function ‘[01m[Kvirtual void legged::MotionCommandTerm::[01;32m[Kreset[m[K()[m[K’:
+[10.110s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:16:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[10.110s]    16 |   if ([01;35m[KanchorRobotIndex_ >= pinModel.nframes[m[K) {
+[10.111s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[10.111s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:21:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[10.111s]    21 |     if ([01;35m[KbodyIndices_.back() >= pinModel.nframes[m[K) {
+[10.111s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[10.113s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:[m[K In member function ‘[01m[Klegged::vector3_t legged::MotionCommandTerm::[01;32m[KgetAnchorPositionLocal[m[K() const[m[K’:
+[10.113s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:53:15:[m[K [01;35m[Kwarning: [m[Kpossibly dangling reference to a temporary [[01;35m[K-Wdangling-reference[m[K]
+[10.114s]    53 |   const auto& [01;35m[KanchorPos[m[K = motionPolicy_->getBodyPositions()[anchorMotionIndex_];
+[10.114s]       |               [01;35m[K^~~~~~~~~[m[K
+[10.114s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:53:79:[m[K [01;36m[Knote: [m[Kthe temporary was destroyed at the end of the full expression ‘[01m[Klegged::MotionOnnxPolicy::getBodyPositions() const().std::vector<Eigen::Matrix<double, 3, 1> >::operator[](((size_t)((const legged::MotionCommandTerm*)this)->legged::MotionCommandTerm::anchorMotionIndex_))[m[K’
+[10.115s]    53 | nPolicy_->getBodyPositions()[anchorMotionIndex_[01;36m[K][m[K;
+[10.115s]       |                                                [01;36m[K^[m[K
+[10.115s] 
+[10.116s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:[m[K In member function ‘[01m[Klegged::vector_t legged::MotionCommandTerm::[01;32m[KgetRobotBodyOrientationLocal[m[K() const[m[K’:
+[10.116s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:17:[m[K [01;35m[Kwarning: [m[Kpossibly dangling reference to a temporary [[01;35m[K-Wdangling-reference[m[K]
+[10.116s]    82 |     const auto& [01;35m[Krot[m[K = anchorPoseReal.actInv(data.oMf[bodyIndices_[i]]).rotation();
+[10.117s]       |                 [01;35m[K^~~[m[K
+[10.117s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:80:[m[K [01;36m[Knote: [m[Kthe temporary was destroyed at the end of the full expression ‘[01m[K((pinocchio::SE3Base<pinocchio::SE3Tpl<double, 0> >*)(& pinocchio::SE3Base<Derived>::actInv(const D&) const [with D = pinocchio::SE3Tpl<double, 0>; Derived = pinocchio::SE3Tpl<double, 0>; typename pinocchio::SE3GroupAction<D>::ReturnType = pinocchio::SE3Tpl<double, 0>]((* & data.pinocchio::DataTpl<double, 0>::oMf.std::vector<pinocchio::SE3Tpl<double, 0>, Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> > >::operator[](((__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type)((const legged::MotionCommandTerm*)this)->legged::MotionCommandTerm::bodyIndices_.std::vector<long unsigned int>::operator[](i)))))))->pinocchio::SE3Base<pinocchio::SE3Tpl<double, 0> >::rotation()[m[K’
+[10.117s]    82 | [01;36m[Keal.actInv(data.oMf[bodyIndices_[i]]).rotation()[m[K;
+[10.117s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.118s] 
+[15.761s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:321[m[K,
+[15.762s]                  from [01m[K/opt/ros/jazzy/include/legged_model/common.h:7[m[K,
+[15.762s]                  from [01m[K/opt/ros/jazzy/include/legged_rl_controllers/Policy.h:7[m[K,
+[15.762s]                  from [01m[K/opt/ros/jazzy/include/legged_rl_controllers/OnnxPolicy.h:16[m[K,
+[15.763s]                  from [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h:7[m[K,
+[15.763s]                  from [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionCommand.h:7[m[K,
+[15.763s]                  from [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:5[m[K:
+[15.764s] In constructor ‘[01m[KEigen::CommaInitializer<MatrixType>::[01;32m[KCommaInitializer[m[K(XprType&, const Scalar&) [35m[K[with XprType = Eigen::Matrix<double, -1, 1>][m[K[m[K’,
+[15.764s]     inlined from ‘[01m[KEigen::CommaInitializer<Derived> Eigen::DenseBase<Derived>::[01;32m[Koperator<<[m[K(const Scalar&) [35m[K[with Derived = Eigen::Matrix<double, -1, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:150:67[m[K,
+[15.764s]     inlined from ‘[01m[Klegged::vector_t legged::MotionCommandTerm::[01;32m[KgetRobotBodyOrientationLocal[m[K() const[m[K’ at [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:84:10[m[K:
+[15.764s] [01m[K/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:38:25:[m[K [01;35m[Kwarning: [m[Kdangling pointer to an unnamed temporary may be used [[01;35m[K-Wdangling-pointer=[m[K]
+[15.765s]    38 |     [01;35m[Km_xpr.coeffRef(0,0) = s[m[K;
+[15.765s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[15.765s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:[m[K In member function ‘[01m[Klegged::vector_t legged::MotionCommandTerm::[01;32m[KgetRobotBodyOrientationLocal[m[K() const[m[K’:
+[15.766s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:44:[m[K [01;36m[Knote: [m[Kunnamed temporary defined here
+[15.766s]    82 | onst auto& rot = [01;36m[KanchorPoseReal.actInv(data.oMf[bodyIndices_[i]])[m[K.rotation();
+[15.766s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.766s] 
+[18.728s] [100%] [32m[1mLinking CXX shared library libmotion_tracking_controller.so[0m
+[19.297s] [100%] Built target motion_tracking_controller
+[19.312s] Invoked command in '/beyondmimic_ws/build/motion_tracking_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/motion_tracking_controller -- -j152 -l152
+[19.322s] Invoking command in '/beyondmimic_ws/build/motion_tracking_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /beyondmimic_ws/build/motion_tracking_controller
+[19.330s] -- Install configuration: "RelwithDebInfo"
+[19.330s] -- Execute custom install script
+[19.331s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller//motion_tracking_controller.xml
+[19.331s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/MotionCommand.h
+[19.331s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/MotionObservation.h
+[19.332s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h
+[19.332s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/MotionTrackingController.h
+[19.332s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/include/motion_tracking_controller/common.h
+[19.332s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/library_path.sh
+[19.333s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/library_path.dsv
+[19.333s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/lib/libmotion_tracking_controller.so
+[19.333s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/config/g1/controllers.yaml
+[19.333s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/config/reference_template.csv
+[19.334s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/launch/mujoco.launch.py
+[19.334s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/launch/real.launch.py
+[19.334s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/launch/wandb.launch.py
+[19.334s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/ament_index/resource_index/package_run_dependencies/motion_tracking_controller
+[19.335s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/ament_index/resource_index/parent_prefix_path/motion_tracking_controller
+[19.335s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/ament_prefix_path.sh
+[19.335s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/ament_prefix_path.dsv
+[19.335s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/path.sh
+[19.335s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/environment/path.dsv
+[19.336s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/local_setup.bash
+[19.336s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/local_setup.sh
+[19.336s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/local_setup.zsh
+[19.336s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/local_setup.dsv
+[19.336s] -- Symlinking: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/package.dsv
+[19.345s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/ament_index/resource_index/packages/motion_tracking_controller
+[19.345s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/motion_tracking_controller
+[19.346s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.346s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.346s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[19.346s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/motion_tracking_controllerConfig.cmake
+[19.346s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/cmake/motion_tracking_controllerConfig-version.cmake
+[19.347s] -- Up-to-date symlink: /beyondmimic_ws/install/motion_tracking_controller/share/motion_tracking_controller/package.xml
+[19.348s] Invoked command in '/beyondmimic_ws/build/motion_tracking_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /beyondmimic_ws/build/motion_tracking_controller

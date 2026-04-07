@@ -1,0 +1,39 @@
+[0.011s] Invoking command in '/workspace/build/motion_tracking_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/motion_tracking_controller -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/motion_tracking_controller
+[0.026s] -- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.232s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.436s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.450s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.732s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.782s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.810s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.866s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.870s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.880s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.884s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.893s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.903s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.225s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/motion_tracking_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.233s] -- Configuring done (1.2s)
+[1.246s] [31mCMake Error in CMakeLists.txt:
+[1.247s]   Imported target "rosbag2_storage_mcap::rosbag2_storage_mcap" includes
+[1.247s]   non-existent path
+[1.247s] 
+[1.247s]     "/opt/ros/jazzy/include/rosbag2_storage_mcap"
+[1.248s] 
+[1.248s]   in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+[1.248s] 
+[1.248s]   * The path was deleted, renamed, or moved to another location.
+[1.249s] 
+[1.249s]   * An install or uninstall procedure did not complete successfully.
+[1.249s] 
+[1.249s]   * The installation package was faulty and references files it does not
+[1.250s]   provide.
+[1.250s] 
+[1.250s] 
+[1.250s] [0m
+[1.259s] -- Generating done (0.0s)
+[1.260s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.269s] Invoked command in '/workspace/build/motion_tracking_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/motion_tracking_controller -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/motion_tracking_controller

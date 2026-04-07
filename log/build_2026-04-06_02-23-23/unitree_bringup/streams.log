@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/workspace/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/unitree_bringup -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/unitree_bringup
+[0.073s] -- The C compiler identification is GNU 13.3.0
+[0.135s] -- The CXX compiler identification is GNU 13.3.0
+[0.151s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.413s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.450s] -- Detecting CXX compile features - done
+[0.457s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.598s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.681s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.819s] -- Configuring done (0.8s)
+[0.823s] -- Generating done (0.0s)
+[0.825s] -- Build files have been written to: /workspace/build/unitree_bringup
+[0.832s] Invoked command in '/workspace/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/unitree_bringup -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/unitree_bringup
+[0.835s] Invoking command in '/workspace/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/unitree_bringup -- -j152 -l152
+[0.874s] Invoked command in '/workspace/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/unitree_bringup -- -j152 -l152
+[0.884s] Invoking command in '/workspace/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/unitree_bringup
+[0.891s] -- Install configuration: "RelwithDebInfo"
+[0.891s] -- Execute custom install script
+[0.892s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/MID360_config.json
+[0.900s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/controllers.yaml
+[0.911s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config.json
+[0.919s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_global_mapping_cpu.json
+[0.927s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_odometry_cpu.json
+[0.936s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_preprocess.json
+[0.943s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_ros.json
+[0.951s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_sensors.json
+[0.958s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_sub_mapping_cpu.json
+[0.967s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/joy.yaml
+[0.975s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/g1/policy.onnx
+[0.982s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/go1/controllers.yaml
+[0.989s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/go1/go1_getup.onnx
+[0.997s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/go1/go1_handstand.onnx
+[1.004s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/go1/go1_joystick.onnx
+[1.015s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/go1/joy.yaml
+[1.024s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/go2/controllers.yaml
+[1.031s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/go2/joy.yaml
+[1.040s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/config/go2/policy.onnx
+[1.048s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/launch/lio.launch.py
+[1.055s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/launch/mujoco.launch.py
+[1.064s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/launch/real.launch.py
+[1.075s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/launch/teleop.launch.py
+[1.082s] -- Symlinking: /workspace/install/unitree_bringup/share/ament_index/resource_index/package_run_dependencies/unitree_bringup
+[1.090s] -- Symlinking: /workspace/install/unitree_bringup/share/ament_index/resource_index/parent_prefix_path/unitree_bringup
+[1.098s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/environment/ament_prefix_path.sh
+[1.105s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/environment/ament_prefix_path.dsv
+[1.113s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/environment/path.sh
+[1.120s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/environment/path.dsv
+[1.128s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/local_setup.bash
+[1.135s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/local_setup.sh
+[1.143s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/local_setup.zsh
+[1.152s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/local_setup.dsv
+[1.159s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/package.dsv
+[1.167s] -- Symlinking: /workspace/install/unitree_bringup/share/ament_index/resource_index/packages/unitree_bringup
+[1.174s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/cmake/unitree_bringupConfig.cmake
+[1.184s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/cmake/unitree_bringupConfig-version.cmake
+[1.191s] -- Symlinking: /workspace/install/unitree_bringup/share/unitree_bringup/package.xml
+[1.201s] Invoked command in '/workspace/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/unitree_bringup

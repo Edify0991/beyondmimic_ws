@@ -1,0 +1,6 @@
+Invoking command in '/beyondmimic_ws/build/unitree_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /beyondmimic_ws/src/unitree_bringup -DCMAKE_INSTALL_PREFIX=/beyondmimic_ws/install/unitree_bringup
+Invoked command in '/beyondmimic_ws/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /beyondmimic_ws/src/unitree_bringup -DCMAKE_INSTALL_PREFIX=/beyondmimic_ws/install/unitree_bringup
+Invoking command in '/beyondmimic_ws/build/unitree_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/unitree_bringup -- -j152 -l152
+Invoked command in '/beyondmimic_ws/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/unitree_bringup -- -j152 -l152
+Invoking command in '/beyondmimic_ws/build/unitree_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /beyondmimic_ws/build/unitree_bringup
+Invoked command in '/beyondmimic_ws/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /beyondmimic_ws/build/unitree_bringup

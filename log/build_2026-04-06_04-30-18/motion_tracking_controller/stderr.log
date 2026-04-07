@@ -1,0 +1,23 @@
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/motion_tracking_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+In file included from [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionCommand.h:7[m[K,
+                 from [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:5[m[K:
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h:7:10:[m[K [01;31m[Kfatal error: [m[Klegged_rl_controllers/OnnxPolicy.h: No such file or directory
+    7 | #include [01;31m[K<legged_rl_controllers/OnnxPolicy.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/motion_tracking_controller.dir/build.make:76: CMakeFiles/motion_tracking_controller.dir/src/MotionCommand.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionOnnxPolicy.cpp:5[m[K:
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h:7:10:[m[K [01;31m[Kfatal error: [m[Klegged_rl_controllers/OnnxPolicy.h: No such file or directory
+    7 | #include [01;31m[K<legged_rl_controllers/OnnxPolicy.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionTrackingController.cpp:1[m[K:
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionTrackingController.h:3:10:[m[K [01;31m[Kfatal error: [m[Klegged_rl_controllers/RlController.h: No such file or directory
+    3 | #include [01;31m[K<legged_rl_controllers/RlController.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/motion_tracking_controller.dir/build.make:90: CMakeFiles/motion_tracking_controller.dir/src/MotionOnnxPolicy.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/motion_tracking_controller.dir/build.make:104: CMakeFiles/motion_tracking_controller.dir/src/MotionTrackingController.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_tracking_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

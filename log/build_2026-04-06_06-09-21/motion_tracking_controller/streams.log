@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/beyondmimic_ws/build/motion_tracking_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/motion_tracking_controller -- -j152 -l152
+[0.070s] [ 25%] [32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionCommand.cpp.o[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionOnnxPolicy.cpp.o[0m
+[0.071s] [ 75%] [32mBuilding CXX object CMakeFiles/motion_tracking_controller.dir/src/MotionTrackingController.cpp.o[0m
+[0.080s] In file included from [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionTrackingController.cpp:1[m[K:
+[0.080s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionTrackingController.h:3:10:[m[K [01;31m[Kfatal error: [m[Klegged_rl_controllers/RlController.h: No such file or directory
+[0.080s]     3 | #include [01;31m[K<legged_rl_controllers/RlController.h>[m[K
+[0.080s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.080s] compilation terminated.
+[0.080s] gmake[2]: *** [CMakeFiles/motion_tracking_controller.dir/build.make:104: CMakeFiles/motion_tracking_controller.dir/src/MotionTrackingController.cpp.o] Error 1
+[0.080s] gmake[2]: *** Waiting for unfinished jobs....
+[0.081s] In file included from [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionCommand.h:7[m[K,
+[0.081s]                  from [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:5[m[K:
+[0.081s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h:7:10:[m[K [01;31m[Kfatal error: [m[Klegged_rl_controllers/OnnxPolicy.h: No such file or directory
+[0.081s]     7 | #include [01;31m[K<legged_rl_controllers/OnnxPolicy.h>[m[K
+[0.081s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.081s] compilation terminated.
+[0.081s] In file included from [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionOnnxPolicy.cpp:5[m[K:
+[0.082s] [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h:7:10:[m[K [01;31m[Kfatal error: [m[Klegged_rl_controllers/OnnxPolicy.h: No such file or directory
+[0.082s]     7 | #include [01;31m[K<legged_rl_controllers/OnnxPolicy.h>[m[K
+[0.082s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.082s] compilation terminated.
+[0.082s] gmake[2]: *** [CMakeFiles/motion_tracking_controller.dir/build.make:76: CMakeFiles/motion_tracking_controller.dir/src/MotionCommand.cpp.o] Error 1
+[0.083s] gmake[2]: *** [CMakeFiles/motion_tracking_controller.dir/build.make:90: CMakeFiles/motion_tracking_controller.dir/src/MotionOnnxPolicy.cpp.o] Error 1
+[0.083s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_tracking_controller.dir/all] Error 2
+[0.083s] gmake: *** [Makefile:146: all] Error 2
+[0.084s] Invoked command in '/beyondmimic_ws/build/motion_tracking_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/motion_tracking_controller -- -j152 -l152

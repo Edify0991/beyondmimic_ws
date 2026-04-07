@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelwithDebInfo-0f872fc5bc8f045d63c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "RelwithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "motion_tracking_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_tracking_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_tracking_controller-RelwithDebInfo-0354cb93bb608585e891.json",
+					"name" : "motion_tracking_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_tracking_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_tracking_controller_uninstall-RelwithDebInfo-4c93af30e3b49f33a603.json",
+					"name" : "motion_tracking_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelwithDebInfo-b43e23885325d326c058.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/beyondmimic_ws/build/motion_tracking_controller",
+		"source" : "/beyondmimic_ws/src/motion_tracking_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

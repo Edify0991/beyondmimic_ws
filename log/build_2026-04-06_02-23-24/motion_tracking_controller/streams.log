@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/workspace/build/motion_tracking_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/motion_tracking_controller -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/motion_tracking_controller
+[0.075s] -- The C compiler identification is GNU 13.3.0
+[0.141s] -- The CXX compiler identification is GNU 13.3.0
+[0.155s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.414s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.450s] -- Detecting CXX compile features
+[0.451s] -- Detecting CXX compile features - done
+[0.456s] -- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.599s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.683s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.829s] [31mCMake Error at CMakeLists.txt:20 (pluginlib_export_plugin_description_file):
+[0.829s]   Unknown CMake command "pluginlib_export_plugin_description_file".
+[0.830s] 
+[0.830s] [0m
+[0.830s] -- Configuring incomplete, errors occurred!
+[0.837s] Invoked command in '/workspace/build/motion_tracking_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/motion_tracking_controller -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/motion_tracking_controller

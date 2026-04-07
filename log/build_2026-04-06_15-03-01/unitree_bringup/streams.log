@@ -1,0 +1,51 @@
+[0.013s] Invoking command in '/beyondmimic_ws/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /beyondmimic_ws/src/unitree_bringup -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/beyondmimic_ws/install/unitree_bringup
+[0.028s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.365s] -- Configuring done (0.3s)
+[0.375s] -- Generating done (0.0s)
+[0.380s] -- Build files have been written to: /beyondmimic_ws/build/unitree_bringup
+[0.386s] Invoked command in '/beyondmimic_ws/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /beyondmimic_ws/src/unitree_bringup -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/beyondmimic_ws/install/unitree_bringup
+[0.388s] Invoking command in '/beyondmimic_ws/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/unitree_bringup -- -j152 -l152
+[0.436s] Invoked command in '/beyondmimic_ws/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/unitree_bringup -- -j152 -l152
+[0.448s] Invoking command in '/beyondmimic_ws/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /beyondmimic_ws/build/unitree_bringup
+[0.457s] -- Install configuration: "RelwithDebInfo"
+[0.457s] -- Execute custom install script
+[0.459s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/MID360_config.json
+[0.459s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/controllers.yaml
+[0.459s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config.json
+[0.460s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_global_mapping_cpu.json
+[0.460s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_odometry_cpu.json
+[0.460s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_preprocess.json
+[0.461s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_ros.json
+[0.461s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_sensors.json
+[0.461s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/glim/config_sub_mapping_cpu.json
+[0.462s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/joy.yaml
+[0.462s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/g1/policy.onnx
+[0.462s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/go1/controllers.yaml
+[0.462s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/go1/go1_getup.onnx
+[0.463s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/go1/go1_handstand.onnx
+[0.463s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/go1/go1_joystick.onnx
+[0.463s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/go1/joy.yaml
+[0.463s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/go2/controllers.yaml
+[0.464s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/go2/joy.yaml
+[0.464s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/config/go2/policy.onnx
+[0.464s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/launch/lio.launch.py
+[0.464s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/launch/mujoco.launch.py
+[0.465s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/launch/real.launch.py
+[0.465s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/launch/teleop.launch.py
+[0.465s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/ament_index/resource_index/package_run_dependencies/unitree_bringup
+[0.465s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/ament_index/resource_index/parent_prefix_path/unitree_bringup
+[0.466s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/environment/ament_prefix_path.sh
+[0.466s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/environment/ament_prefix_path.dsv
+[0.466s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/environment/path.sh
+[0.466s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/environment/path.dsv
+[0.467s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/local_setup.bash
+[0.467s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/local_setup.sh
+[0.467s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/local_setup.zsh
+[0.467s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/local_setup.dsv
+[0.468s] -- Symlinking: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/package.dsv
+[0.471s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/ament_index/resource_index/packages/unitree_bringup
+[0.471s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/cmake/unitree_bringupConfig.cmake
+[0.471s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/cmake/unitree_bringupConfig-version.cmake
+[0.472s] -- Up-to-date symlink: /beyondmimic_ws/install/unitree_bringup/share/unitree_bringup/package.xml
+[0.474s] Invoked command in '/beyondmimic_ws/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /beyondmimic_ws/build/unitree_bringup

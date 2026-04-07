@@ -1,0 +1,2 @@
+Invoking command in '/beyondmimic_ws/build/motion_tracking_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/motion_tracking_controller -- -j152 -l152
+Invoked command in '/beyondmimic_ws/build/motion_tracking_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /beyondmimic_ws/build/motion_tracking_controller -- -j152 -l152

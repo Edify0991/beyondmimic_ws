@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000487] (-) JobUnselected: {'identifier': 'unitree_bringup'}
+[0.000625] (motion_tracking_controller) JobQueued: {'identifier': 'motion_tracking_controller', 'dependencies': OrderedDict()}
+[0.000656] (motion_tracking_controller) JobStarted: {'identifier': 'motion_tracking_controller'}
+[0.009580] (motion_tracking_controller) JobProgress: {'identifier': 'motion_tracking_controller', 'progress': 'cmake'}
+[0.010169] (motion_tracking_controller) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/motion_tracking_controller', '-DCMAKE_BUILD_TYPE=RelwithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/motion_tracking_controller'], 'cwd': '/workspace/build/motion_tracking_controller', 'env': OrderedDict({'HOSTNAME': 'user-Super-Server', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROSDISTRO_INDEX_URL': 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/build/motion_tracking_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.027037] (motion_tracking_controller) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[0.099624] (-) TimerEvent: {}
+[0.200011] (-) TimerEvent: {}
+[0.232182] (motion_tracking_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.300138] (-) TimerEvent: {}
+[0.400492] (-) TimerEvent: {}
+[0.436241] (motion_tracking_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.450606] (motion_tracking_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.467666] (motion_tracking_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.487134] (motion_tracking_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500591] (-) TimerEvent: {}
+[0.600975] (-) TimerEvent: {}
+[0.701467] (-) TimerEvent: {}
+[0.732007] (motion_tracking_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.782118] (motion_tracking_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.784852] (motion_tracking_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801562] (-) TimerEvent: {}
+[0.810874] (motion_tracking_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.866255] (motion_tracking_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.870104] (motion_tracking_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.880663] (motion_tracking_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.884340] (motion_tracking_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.893402] (motion_tracking_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.901656] (-) TimerEvent: {}
+[0.903382] (motion_tracking_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.001761] (-) TimerEvent: {}
+[1.102092] (-) TimerEvent: {}
+[1.202352] (-) TimerEvent: {}
+[1.225097] (motion_tracking_controller) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/motion_tracking_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[1.233876] (motion_tracking_controller) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.246907] (motion_tracking_controller) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[1.247197] (motion_tracking_controller) StderrLine: {'line': b'  Imported target "rosbag2_storage_mcap::rosbag2_storage_mcap" includes\n'}
+[1.247442] (motion_tracking_controller) StderrLine: {'line': b'  non-existent path\n'}
+[1.247675] (motion_tracking_controller) StderrLine: {'line': b'\n'}
+[1.247942] (motion_tracking_controller) StderrLine: {'line': b'    "/opt/ros/jazzy/include/rosbag2_storage_mcap"\n'}
+[1.248181] (motion_tracking_controller) StderrLine: {'line': b'\n'}
+[1.248410] (motion_tracking_controller) StderrLine: {'line': b'  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:\n'}
+[1.248641] (motion_tracking_controller) StderrLine: {'line': b'\n'}
+[1.248874] (motion_tracking_controller) StderrLine: {'line': b'  * The path was deleted, renamed, or moved to another location.\n'}
+[1.249122] (motion_tracking_controller) StderrLine: {'line': b'\n'}
+[1.249358] (motion_tracking_controller) StderrLine: {'line': b'  * An install or uninstall procedure did not complete successfully.\n'}
+[1.249587] (motion_tracking_controller) StderrLine: {'line': b'\n'}
+[1.249812] (motion_tracking_controller) StderrLine: {'line': b'  * The installation package was faulty and references files it does not\n'}
+[1.250039] (motion_tracking_controller) StderrLine: {'line': b'  provide.\n'}
+[1.250268] (motion_tracking_controller) StderrLine: {'line': b'\n'}
+[1.250494] (motion_tracking_controller) StderrLine: {'line': b'\n'}
+[1.250741] (motion_tracking_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.259468] (motion_tracking_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.260872] (motion_tracking_controller) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.269397] (motion_tracking_controller) CommandEnded: {'returncode': 1}
+[1.293791] (motion_tracking_controller) JobEnded: {'identifier': 'motion_tracking_controller', 'rc': 1}
+[1.302455] (-) TimerEvent: {}
+[1.304188] (-) EventReactorShutdown: {}

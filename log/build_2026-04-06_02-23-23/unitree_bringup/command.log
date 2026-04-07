@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/unitree_bringup -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/unitree_bringup
+Invoked command in '/workspace/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspace/src/unitree_bringup -DCMAKE_BUILD_TYPE=RelwithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/unitree_bringup
+Invoking command in '/workspace/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/unitree_bringup -- -j152 -l152
+Invoked command in '/workspace/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspace/build/unitree_bringup -- -j152 -l152
+Invoking command in '/workspace/build/unitree_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/unitree_bringup
+Invoked command in '/workspace/build/unitree_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspace/build/unitree_bringup

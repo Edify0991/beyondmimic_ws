@@ -1,0 +1,46 @@
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/motion_tracking_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionOnnxPolicy.cpp:[m[K In member function ‘[01m[Kvirtual legged::vector_t legged::MotionOnnxPolicy::[01;32m[Kforward[m[K(const legged::vector_t&)[m[K’:
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionOnnxPolicy.cpp:79:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[KEigen::Index[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   79 |   for (size_t i = 0; [01;35m[Ki < body_pos_w.rows()[m[K; ++i) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:[m[K In member function ‘[01m[Kvirtual void legged::MotionCommandTerm::[01;32m[Kreset[m[K()[m[K’:
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:16:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   16 |   if ([01;35m[KanchorRobotIndex_ >= pinModel.nframes[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:21:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   21 |     if ([01;35m[KbodyIndices_.back() >= pinModel.nframes[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:[m[K In member function ‘[01m[Klegged::vector3_t legged::MotionCommandTerm::[01;32m[KgetAnchorPositionLocal[m[K() const[m[K’:
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:53:15:[m[K [01;35m[Kwarning: [m[Kpossibly dangling reference to a temporary [[01;35m[K-Wdangling-reference[m[K]
+   53 |   const auto& [01;35m[KanchorPos[m[K = motionPolicy_->getBodyPositions()[anchorMotionIndex_];
+      |               [01;35m[K^~~~~~~~~[m[K
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:53:79:[m[K [01;36m[Knote: [m[Kthe temporary was destroyed at the end of the full expression ‘[01m[Klegged::MotionOnnxPolicy::getBodyPositions() const().std::vector<Eigen::Matrix<double, 3, 1> >::operator[](((size_t)((const legged::MotionCommandTerm*)this)->legged::MotionCommandTerm::anchorMotionIndex_))[m[K’
+   53 | nPolicy_->getBodyPositions()[anchorMotionIndex_[01;36m[K][m[K;
+      |                                                [01;36m[K^[m[K
+
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:[m[K In member function ‘[01m[Klegged::vector_t legged::MotionCommandTerm::[01;32m[KgetRobotBodyOrientationLocal[m[K() const[m[K’:
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:17:[m[K [01;35m[Kwarning: [m[Kpossibly dangling reference to a temporary [[01;35m[K-Wdangling-reference[m[K]
+   82 |     const auto& [01;35m[Krot[m[K = anchorPoseReal.actInv(data.oMf[bodyIndices_[i]]).rotation();
+      |                 [01;35m[K^~~[m[K
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:80:[m[K [01;36m[Knote: [m[Kthe temporary was destroyed at the end of the full expression ‘[01m[K((pinocchio::SE3Base<pinocchio::SE3Tpl<double, 0> >*)(& pinocchio::SE3Base<Derived>::actInv(const D&) const [with D = pinocchio::SE3Tpl<double, 0>; Derived = pinocchio::SE3Tpl<double, 0>; typename pinocchio::SE3GroupAction<D>::ReturnType = pinocchio::SE3Tpl<double, 0>]((* & data.pinocchio::DataTpl<double, 0>::oMf.std::vector<pinocchio::SE3Tpl<double, 0>, Eigen::aligned_allocator<pinocchio::SE3Tpl<double, 0> > >::operator[](((__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type)((const legged::MotionCommandTerm*)this)->legged::MotionCommandTerm::bodyIndices_.std::vector<long unsigned int>::operator[](i)))))))->pinocchio::SE3Base<pinocchio::SE3Tpl<double, 0> >::rotation()[m[K’
+   82 | [01;36m[Keal.actInv(data.oMf[bodyIndices_[i]]).rotation()[m[K;
+      | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:321[m[K,
+                 from [01m[K/opt/ros/jazzy/include/legged_model/common.h:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/legged_rl_controllers/Policy.h:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/legged_rl_controllers/OnnxPolicy.h:16[m[K,
+                 from [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionOnnxPolicy.h:7[m[K,
+                 from [01m[K/beyondmimic_ws/src/motion_tracking_controller/include/motion_tracking_controller/MotionCommand.h:7[m[K,
+                 from [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:5[m[K:
+In constructor ‘[01m[KEigen::CommaInitializer<MatrixType>::[01;32m[KCommaInitializer[m[K(XprType&, const Scalar&) [35m[K[with XprType = Eigen::Matrix<double, -1, 1>][m[K[m[K’,
+    inlined from ‘[01m[KEigen::CommaInitializer<Derived> Eigen::DenseBase<Derived>::[01;32m[Koperator<<[m[K(const Scalar&) [35m[K[with Derived = Eigen::Matrix<double, -1, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:150:67[m[K,
+    inlined from ‘[01m[Klegged::vector_t legged::MotionCommandTerm::[01;32m[KgetRobotBodyOrientationLocal[m[K() const[m[K’ at [01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:84:10[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:38:25:[m[K [01;35m[Kwarning: [m[Kdangling pointer to an unnamed temporary may be used [[01;35m[K-Wdangling-pointer=[m[K]
+   38 |     [01;35m[Km_xpr.coeffRef(0,0) = s[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:[m[K In member function ‘[01m[Klegged::vector_t legged::MotionCommandTerm::[01;32m[KgetRobotBodyOrientationLocal[m[K() const[m[K’:
+[01m[K/beyondmimic_ws/src/motion_tracking_controller/src/MotionCommand.cpp:82:44:[m[K [01;36m[Knote: [m[Kunnamed temporary defined here
+   82 | onst auto& rot = [01;36m[KanchorPoseReal.actInv(data.oMf[bodyIndices_[i]])[m[K.rotation();
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+

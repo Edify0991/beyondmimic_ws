@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/beyondmimic_ws/build/motion_tracking_controller/libmotion_tracking_controller.so" "TARGETS" "motion_tracking_controller" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
